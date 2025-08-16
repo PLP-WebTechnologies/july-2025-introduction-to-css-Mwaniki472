@@ -1,0 +1,103 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+  background-color: lightgray;
+  line-height: 1.6;
+  color: black
+}
+
+/* Header */
+#main-header {
+  background-color: lightsteelblue;
+  color: white;
+  padding: 20px;
+  border-bottom: 3px solid gray;
+  text-align: center;
+}
+
+/* Subheading (Blossom With Beauty) */
+#main-header p {
+  color: darkblue;
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+/* Sidebar */
+.side-bar {
+  position: fixed; /* keep sidebar fixed */
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100%; /* full height */
+  background-color: lightsteelblue;
+  padding: 20px;
+  border-right: 3px solid gray;
+  box-sizing: border-box;
+}
+
+.side-bar h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.side-bar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-bar ul li {
+  margin-bottom: 10px;
+}
+
+.side-bar ul li a {
+  display: block;
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.side-bar ul li a:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+/* Main content */
+.content {
+  margin-left: 220px; /* leave space for sidebar */
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Section boxes */
+.box {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid lightgray;
+  border-radius: 8px;
+}
+
+h1, h2, h3 {
+  color: darkslateblue;
+}
+
+p {
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+/* Footer */
+footer {
+  background-color: lightsteelblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 3px solid gray;
+  margin-top: 20px;
+}
